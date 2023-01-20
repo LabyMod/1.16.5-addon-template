@@ -74,6 +74,10 @@ repositories {
         name = 'impactdevelopment-repo'
         url = 'https://impactdevelopment.github.io/maven/'
     }
+    maven {
+        name = "Minecraft Libraries"
+        url = "https://libraries.minecraft.net/"
+    }
     mavenLocal()
 }
 
